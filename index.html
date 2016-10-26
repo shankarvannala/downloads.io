@@ -6,7 +6,7 @@
 <body>
 <div class="w3-container">
 	<p>&nbsp;</p>
-  <h2>Latest Versions of my applications</h2>
+  <h2>Latest versions of my applications</h2>
   <h3>Check the app version you have and install latest version from below</h3>
   <p><i class="w3-xxxlarge w3-spin fa fa-refresh"></i></p>
   <p class="w3-text-blue">Download Section :<i class="w3-margin-left fa fa-home"></i></p>
@@ -17,6 +17,9 @@
   </p></div>
   <div class="w3-panel w3-clear w3-round-large w3-pale-green w3-text-green w3-card-2">
   <p><span onclick="document.getElementById('id02').style.display='block'">AIO Hack : version 1.0</span> <a class="w3-btn w3-ripple w3-right w3-round-large w3-green" href="https://goo.gl/VTvYdR">Download</a>
+  </p></div>
+  <div class="w3-panel w3-clear w3-pale-green w3-round-large w3-text-grey w3-card-2">
+  <p><span onclick="document.getElementById('id10').style.display='block'">Goomchy(Mumbai best places) : version 1.0</span> <a class="w3-btn w3-ripple w3-right w3-round-large w3-grey" href="https://goo.gl/KSV6L8">Download</a>
   </p></div>
   <div class="w3-panel w3-clear w3-pale-green w3-round-large w3-text-grey w3-card-2">
   <p><span onclick="document.getElementById('id03').style.display='block'">GSMArena : version 1.0</span> <a class="w3-btn w3-ripple w3-right w3-round-large w3-grey" href="https://goo.gl/G86qau">Download</a>
@@ -112,6 +115,14 @@ The blog is meant to be personal and as such it will express personal opinions a
       <div class="w3-container">
         <span onclick="document.getElementById('id09').style.display='none'" class="w3-closebtn">&times;</span>
         <p>WallPro app , best HD Wallpapers included with a set of different categories offering to users with many features, like (save,set wallpaper,share,report)</p>
+      </div>
+    </div>
+  </div>
+  <div id="id10" class="w3-modal">
+    <div class="w3-modal-content w3-animate-top">
+      <div class="w3-container">
+        <span onclick="document.getElementById('id10').style.display='none'" class="w3-closebtn">&times;</span>
+        <p>Goomchy best mumbai tourist places showcased here with beautifull pictures.</p>
       </div>
     </div>
   </div>
@@ -217,6 +228,17 @@ window.onclick = function(event) {
     }
 }
 </script>
+<script>
+// Get the modal
+var modal = document.getElementById('id10');
 
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+}
+</script>
+	
 </body>
 </html>
